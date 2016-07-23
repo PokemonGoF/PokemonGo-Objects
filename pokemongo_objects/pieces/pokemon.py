@@ -1,0 +1,17 @@
+class Pokemon:
+    def __init__(self, pokemon_dict):
+        self.move_1 = pokemon_dict['move_1']
+        self.move_2 = pokemon_dict['move_2']
+        self.captured_cell_id = pokemon_dict['captured_cell_id']
+        self.pokeball = pokemon_dict['pokeball']
+        self.pokemon_id = pokemon_dict['pokemon_id']
+        self.creation_time = pokemon_dict['creation_time_ms']
+        self.height = pokemon_dict['height']
+        self.stamina_max = pokemon_dict['stamina_max']
+        self.weight = pokemon_dict['weight']
+        self.individual_defense = pokemon_dict['individual_defense']
+        self.individual_stamina = pokemon_dict['individual_stamina']
+        self.individual_attack = pokemon_dict['individual_attack']
+        self.stamina = pokemon_dict['stamina']
+        self.cp = pokemon_dict['cp']
+        self.unique_id = pokemon_dict['id']
